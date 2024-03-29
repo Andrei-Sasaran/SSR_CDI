@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.Remoting.Contexts;
@@ -101,28 +102,29 @@ namespace Tema3CDI
         {
             if (UniSelected)
             {
-                if (!ColumnContainsValue(this.database1DataSet.Universities, "Code", textBox_Code.Text))
+                DataRow[] rows = database1DataSet.Universities.Select("Id = '" + textBox_Id.Text + "'");
+                if (rows.Length == 0)
                 {
-                    MessageBox.Show("Invalid entry!");
+                    MessageBox.Show("University with ID '" + textBox_Id.Text + "' not found!");
                 }
                 else
                 {
-                    DataRow[] row = database1DataSet.Universities.Select("id = '" + textBox_Id.Text + "'");
-                    row[0].Delete();
-                    this.database1DataSet.Universities.Rows.Add(textBox_Id.Text, textBox_NameUniv.Text, textBox_City.Text, textBox_Code.Text);
+                    rows[0]["NameUniv"] = textBox_NameUniv.Text;
+                    rows[0]["City"] = textBox_City.Text;
+                    rows[0]["Code"] = textBox_Code.Text;
                 }
             }
             else
             {
-                if (!ColumnContainsValue(this.database1DataSet.Faculties, "Id", textBox_Id.Text))
+                DataRow[] rows = database1DataSet.Faculties.Select("Id = '" + textBox_Id.Text + "'");
+                if (rows.Length == 0)
                 {
-                    MessageBox.Show("Invalid entry!");
+                    MessageBox.Show("Faculty with ID '" + textBox_Id.Text + "' not found!");
                 }
                 else
                 {
-                    DataRow[] row = database1DataSet.Faculties.Select("id = '" + textBox_Id.Text + "'");
-                    row[0].Delete();
-                    this.database1DataSet.Faculties.Rows.Add(textBox_Id.Text, textBox_NameUniv.Text, textBox_City.Text, textBox_Code.Text);
+                    rows[0]["Name"] = textBox_NameUniv.Text;
+                    rows[0]["Code"] = textBox_Code.Text;
                 }
             }
         }
@@ -130,6 +132,7 @@ namespace Tema3CDI
 
         private void MSI_Universities_Click(object sender, EventArgs e)
         {
+            data_Label.Text = "Universities";
             dataGridView.Columns.Clear();
             dataGridView.AutoGenerateColumns = true;
             dataGridView.DataSource = database1DataSet.Universities;
@@ -139,6 +142,7 @@ namespace Tema3CDI
 
         private void MSI_Faculties_Click(object sender, EventArgs e)
         {
+            data_Label.Text = "Faculties";
             dataGridView.Columns.Clear();
             dataGridView.AutoGenerateColumns = true;
             dataGridView.DataSource = database1DataSet.Faculties;
