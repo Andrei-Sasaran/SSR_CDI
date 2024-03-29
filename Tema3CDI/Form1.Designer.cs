@@ -114,7 +114,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(183, 23);
             this.button1.TabIndex = 8;
-            this.button1.Text = "Add Entry";
+            this.button1.Text = "Modify Tables";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.AddEntry_Click);
             // 
@@ -133,7 +133,7 @@
             this.Controls.Add(this.listBox_Fac);
             this.Controls.Add(this.listBox_Univ);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Tables";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
