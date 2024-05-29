@@ -157,6 +157,24 @@
 						"url": "http://localhost:57468/api/Cars"
 					},
 					"response": []
+				},
+				{
+					"name": "InsertFromVin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Vin\":\"RVWDG7CC1BT246941\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:57468/api/Cars/PostFromVin"
+					},
+					"response": []
 				}
 			]
 		},

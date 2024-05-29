@@ -7,11 +7,7 @@
       "RelativeMoniker": "D:0:0:{E0CCBC4C-AD35-4670-B2F4-0E25A33AA623}|CarPartsStore\\CarPartsStore.csproj|solutionrelative:carpartsstore\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0CCBC4C-AD35-4670-B2F4-0E25A33AA623}|CarPartsStore\\CarPartsStore.csproj|s:\\anul 3\\semestrul 2\\ii\\becked_git\\ssr_cdi\\carpartsstore\\carpartsstore\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0CCBC4C-AD35-4670-B2F4-0E25A33AA623}|CarPartsStore\\CarPartsStore.csproj|solutionrelative:carpartsstore\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0CCBC4C-AD35-4670-B2F4-0E25A33AA623}|CarPartsStore\\CarPartsStore.csproj|s:\\anul 3\\semestrul 2\\ii\\becked_git\\ssr_cdi\\carpartsstore\\carpartsstore\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{E0CCBC4C-AD35-4670-B2F4-0E25A33AA623}|CarPartsStore\\CarPartsStore.csproj|S:\\Anul 3\\Semestrul 2\\II\\Becked_GIT\\SSR_CDI\\CarPartsStore\\carpartsstore\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{E0CCBC4C-AD35-4670-B2F4-0E25A33AA623}|CarPartsStore\\CarPartsStore.csproj|solutionrelative:carpartsstore\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 180,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,19 +43,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "S:\\Anul 3\\Semestrul 2\\II\\Becked_GIT\\SSR_CDI\\CarPartsStore\\CarPartsStore\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "CarPartsStore\\Controllers\\UsersController.cs",
-              "ToolTip": "S:\\Anul 3\\Semestrul 2\\II\\Becked_GIT\\SSR_CDI\\CarPartsStore\\CarPartsStore\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "CarPartsStore\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAowFIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T22:18:59.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Web.config",
               "DocumentMoniker": "S:\\Anul 3\\Semestrul 2\\II\\Becked_GIT\\SSR_CDI\\CarPartsStore\\CarPartsStore\\Web.config",
               "RelativeDocumentMoniker": "CarPartsStore\\Web.config",
@@ -72,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "WebApiConfig.cs",
               "DocumentMoniker": "S:\\Anul 3\\Semestrul 2\\II\\Becked_GIT\\SSR_CDI\\CarPartsStore\\CarPartsStore\\App_Start\\WebApiConfig.cs",
               "RelativeDocumentMoniker": "CarPartsStore\\App_Start\\WebApiConfig.cs",
@@ -80,15 +63,8 @@
               "RelativeToolTip": "CarPartsStore\\App_Start\\WebApiConfig.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T09:23:24.196Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 180,
-          "SelectedChildIndex": 0,
-          "Children": [
+              "WhenOpened": "2024-05-28T09:23:24.196Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -97,7 +73,7 @@
               "RelativeDocumentMoniker": "CarPartsStore\\Controllers\\CarsController.cs",
               "ToolTip": "S:\\Anul 3\\Semestrul 2\\II\\Becked_GIT\\SSR_CDI\\CarPartsStore\\CarPartsStore\\Controllers\\CarsController.cs",
               "RelativeToolTip": "CarPartsStore\\Controllers\\CarsController.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAowEAAAAAkAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAHUBAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T22:18:31.734Z",
               "EditorCaption": ""
