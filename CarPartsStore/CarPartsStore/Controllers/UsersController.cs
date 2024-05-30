@@ -133,7 +133,7 @@ namespace CarPartsStore.Controllers
             }
             catch (Exception ex)
             {
-                return "ShoppingCart update failed!" + ex.Message;
+                return "ShoppingCart update failed!" + ex.Message; 
             }
         }
     }
