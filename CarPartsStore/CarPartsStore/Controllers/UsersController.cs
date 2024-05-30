@@ -57,6 +57,29 @@ namespace CarPartsStore.Controllers
                 return "Add failed!" ;
             }
         }
+        public string Delete(Users users)
+        {
+            try
+            {
+                string query = @"
+                        DELETE FROM Users
+                        WHERE email = '" + users.email + @"'
+                        ";
+                DataTable dataTable = new DataTable();
+                using (var connection = new SqlConnection(ConfigurationManager.ConnectionStrings["CarPartsStoreDB"].ConnectionString))
+                using (var cmd = new SqlCommand(query, connection))
+                using (var dataAdapter = new SqlDataAdapter(cmd))
+                {
+                    cmd.CommandType = CommandType.Text;
+                    dataAdapter.Fill(dataTable);
+                }
+                return "Deleted with succes!";
+            }
+            catch (Exception)
+            {
+                return "Delete failed!";
+            }
+        }
         [Route("api/Users/UpdateUsersPassword")]
         [HttpPut]
         public string UpdateUsersPassword(Users users)
