@@ -80,7 +80,11 @@
               "RelativeDocumentMoniker": "CarPartsStore\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\sasar\\Code\\Shared_Repositories\\SSR_CDI\\CarPartsStore\\CarPartsStore\\Controllers\\UsersController.cs",
               "RelativeToolTip": "CarPartsStore\\Controllers\\UsersController.cs",
+<<<<<<< HEAD
               "ViewState": "AQIAAHEAAAAAAAAAAAAqwIcAAABDAAAA",
+=======
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAUwKQAAAAnAAAA",
+>>>>>>> main
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T11:30:52.711Z",
               "EditorCaption": ""
